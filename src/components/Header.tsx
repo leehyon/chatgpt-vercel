@@ -43,7 +43,7 @@ export default function Header() {
       >
         <Show
           when={iconTitle().icon}
-          fallback={<div class="w-8em h-8em" innerHTML={logo} />}
+          fallback={<div class="w-8em h-5em" innerHTML={logo} />}
         >
           <div class="text-7em h-1em mb-8">{iconTitle().icon}</div>
         </Show>
