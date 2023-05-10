@@ -197,7 +197,7 @@ export default function ({
             <textarea
               ref={el => setStore("inputRef", el)}
               id="input"
-              placeholder="Let's CHAT!"
+              placeholder="Let's chat..."
               autocomplete="off"
               value={store.inputContent}
               autofocus
