@@ -19,9 +19,10 @@ export const defaultEnv = {
     APIModel: "gpt-3.5-turbo" as Model
   },
   CLIENT_DEFAULT_MESSAGE: `Powered by OpenAI Vercel
-- 由于本人的 API 将于 2023-06-01 过期，届时可能考虑关站，感谢支持。
+- 由于本人的 API 将于 2023-06-01 过期，届时可能不再继续提供服务，感谢支持。
+- 请勿上传敏感信息，本站不存储任何历史记录，每次刷新或退出会自动清空对话。
 - 点击每条消息前的头像，可以锁定对话，作为角色设定。
-- 现在支持多个对话，打开对话设置，点击新建对话。输入 [[/]][[/]] 可以切换对话。
+- 现在支持多个对话，打开对话设置，点击新建对话。输入 [[/]] [[/]] 可以切换对话。
 - [[Shift]] + [[Enter]] 换行。开头输入 [[/]] 搜索 Prompt 预设。
 `,
   CLIENT_MAX_INPUT_TOKENS: {
