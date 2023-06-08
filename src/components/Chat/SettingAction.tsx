@@ -279,7 +279,6 @@ export default function SettingAction() {
                     ? "i-carbon:checkmark animate-bounce text-red-6 dark:text-red"
                     : "i-carbon:clean"
                 }
-                label={actionState.clearSessionConfirm ? "确定" : "清空对话"}
               />
             </div>
           }
