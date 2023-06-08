@@ -19,8 +19,9 @@ export const defaultEnv = {
     APIModel: "gpt-3.5-turbo" as Model
   },
   CLIENT_DEFAULT_MESSAGE: `Powered by OpenAI Vercel
-- 再续一秒，新的 Key 将于 2023-07-01 过期。
+- 再续一秒，新 Key 将于 2023-07-01 过期。
 - 请勿上传敏感信息。
+- 不相干对话请及时点击对话框右上角小扫把进行清除。
 - 点击每条消息前的头像，可以锁定对话，作为角色设定。
 - 现在支持多个对话，打开对话设置，点击新建对话。输入 [[/]] [[/]] 可以切换对话。
 - [[Shift]] + [[Enter]] 换行。开头输入 [[/]] 搜索 Prompt 预设。
