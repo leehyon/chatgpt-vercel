@@ -240,7 +240,6 @@ export default function SettingAction() {
                   })
                 }}
                 icon={roleIcons[actionState.fakeRole]}
-                label="伪装角色"
               />
               <ActionItem
                 onClick={async () => {
@@ -249,10 +248,8 @@ export default function SettingAction() {
                   setTimeout(() => setActionState("genImg", "normal"), 1000)
                 }}
                 icon={imgIcons[actionState.genImg]}
-                label="导出图片"
               />
               <ActionItem
-                label="导出MD"
                 onClick={async () => {
                   await exportMD(store.messageList)
                   setActionState("success", "markdown")
@@ -360,7 +357,6 @@ export default function SettingAction() {
                       ? "i-carbon:checkmark animate-bounce text-red-6 dark:text-red"
                       : "i-carbon:trash-can"
                   }
-                  label={actionState.deleteSessionConfirm ? "确定" : "删除对话"}
                 />
               </Show>
             </div>
