@@ -60,10 +60,7 @@ export default function Header() {
             fallback={
               <>
                 <span class="font-extrabold text-slate-7 dark:text-slate mr-1">
-                  Koh
-                </span>
-                <span class="ml-1 font-extrabold text-slate-7 dark:text-slate">
-                  ChatGPT
+                  KohsGPT
                 </span>
               </>
             }
